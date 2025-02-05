@@ -1,14 +1,13 @@
-
-import './App.css'
-import ListProducts from './ListProducts'
+import React from 'react';
+import RegistrationForm from './RegistrationForm';
 
 function App() {
-
   return (
-    <>
-    <ListProducts/>
-    </>
-  )
+    <div>
+      <h1 style={{ textAlign: 'center', color: '#333' }}>نموذج التسجيل</h1>
+      <RegistrationForm />
+    </div>
+  );
 }
 
-export default App
+export default App;
